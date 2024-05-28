@@ -8,7 +8,7 @@ from rich.console import Console
 from rich.markdown import Markdown
 from rich import print as rprint
 
-CONFIG_PATH = os.path.expanduser('~/.plotshrc')
+CONFIG_PATH = os.path.expanduser('~/.infrashrc')
 
 console = Console()
 
