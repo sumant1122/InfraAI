@@ -6,6 +6,7 @@ import distro
 
 from rich.console import Console
 from rich.markdown import Markdown
+from rich import print as rprint
 
 CONFIG_PATH = os.path.expanduser('~/.plotshrc')
 
@@ -55,9 +56,9 @@ def ask_ai(prompt, api_key, model="gemini-pro"):
     try:
         modell = genai.GenerativeModel(model_name=model)
         response = modell.generate_content(full_prompt)
+        rprint("[bold green]Here![/bold green] We got your response:")
         md = Markdown(response.candidates[0].content.parts[0].text)
         console.print(md)
-           
         #new line added to create space between next console input
         print() 
 
