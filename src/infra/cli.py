@@ -1,9 +1,10 @@
 import argparse
 import sys
-from config import get_config, set_key, set_model, ask_ai
+from infra.config import get_config, set_key, set_model, ask_ai
 
 
-def main():
+
+def cli():
     parser = argparse.ArgumentParser(description='Infra: AI helper that makes it easy for infrastructure developers to find commands quickly and effectively.',
                                      epilog=
                 'Examples:\n'
@@ -35,4 +36,4 @@ def main():
         parser.print_help()
 
 if __name__ == '__main__':
-    main()
+    cli()
