@@ -46,7 +46,7 @@ This command will save your model choice and use it for all future inquiries.
 To use InfraAI, simply type `infra` followed by the command or query you need help with. Here’s how it works:
 
 ```bash
-infra infra how to list docker containers
+infra how to list docker containers
 ```
 <img src="screencapture/dockerresponse.png" alt="response"/>
 
