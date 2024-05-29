@@ -1,8 +1,7 @@
 # InfraAI
-AI assistant that makes it easy for infrastructure developers to find commands quickly and effectively.
+ A minimalistic AI assistant designed to assist infrastructure engineers and developers with various tasks related to infrastructure management, deployment, and development. 
 
-
-🔭 InfraAI is a command-line tool designed to provide immediate assistance to infrastructure develoeprs. It leverages the capabilities of Google's Gemini models to deliver precise command guidance tailored to various operating systems and environments.
+🔭 InfraAI is a command-line tool designed to provide immediate concise responses. It leverages the capabilities of Google's Gemini models to deliver precise commands tailored to various operating systems and environments.
 
 
 ## Features 🌟
@@ -47,9 +46,9 @@ This command will save your model choice and use it for all future inquiries.
 To use InfraAI, simply type `infra` followed by the command or query you need help with. Here’s how it works:
 
 ```bash
-infra how to setup nginx
+infra infra how to list docker containers
 ```
-
+<img src="screencapture/dockerresponse.png" alt="response"/>
 
 ### Examples
 
